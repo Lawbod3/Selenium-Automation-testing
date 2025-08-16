@@ -1,5 +1,6 @@
 package com.sourceDemo.pages;
 
+import com.BasePage.BasePage;
 import org.openqa.selenium.By;
 
 public class ProductPage extends BasePage {
