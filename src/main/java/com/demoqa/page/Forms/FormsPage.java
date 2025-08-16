@@ -9,6 +9,7 @@ public class FormsPage extends HomePage {
 
     private By practiseFormMenuItem = By.xpath("//li[@id='item-0']/span[text()='Practice Form']");
 
+
     public  PracticeFormPage clickPracticeForm(){
         scrollToElementJs(practiseFormMenuItem);
         click(practiseFormMenuItem);
